@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DietProof Privacy Policy explaining information collection, use, storage and deletion.">
+  <title>DietProof Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.7;
+      color: #202124;
+    }
+    h1, h2 { color: #176b45; }
+    a { color: #176b45; }
+    footer {
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid #ddd;
+      color: #5f6368;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <p><a href="index.html">← DietProof home</a></p>
+
+  <h1>DietProof Privacy Policy</h1>
+  <p><strong>Last updated:</strong> October 21, 2026</p>
+
+  <p>This Privacy Policy explains how DietProof handles information when you use the DietProof mobile application. DietProof helps users review food product ingredients against selected dietary categories. By using the app, you acknowledge the practices described below.</p>
+
+  <h2>1. Information We Process</h2>
+
+  <h3>Account information</h3>
+  <p>When you register, DietProof processes your email address, password for authentication, and the first and last names you provide. Account registration and authentication are handled by Supabase. DietProof uses account information to provide sign-in, password-reset, and account-management features.</p>
+
+  <h3>Product searches</h3>
+  <p>When you search for a food product or scan its barcode, the app may send a search term or barcode to external product-data services to find matching product information. The information returned may include product name, brand, barcode, ingredient text, and product image URLs.</p>
+
+  <h3>Ingredient-label images and OCR</h3>
+  <p>You may select or take a photograph of a food label. The reviewed app implementation processes the selected image on your device using Google ML Kit text recognition to extract text. The reviewed scanner code does not upload the original label image to DietProof's Supabase backend.</p>
+
+  <h3>Scan history and dietary results</h3>
+  <p>When you analyse a label, DietProof can save the product name, extracted ingredient text, and dietary analysis results in Supabase. Results can include the dietary category, status, explanation, and matched ingredients. Your scan history is associated with your account so the app can retrieve and manage your records.</p>
+
+  <h2>2. Why We Use Information</h2>
+  <ul>
+    <li>To create and authenticate accounts.</li>
+    <li>To search for food products and retrieve ingredient information.</li>
+    <li>To analyse ingredients against the dietary categories available in the app.</li>
+    <li>To display and manage your scan history.</li>
+    <li>To respond to support, privacy, and account-deletion requests.</li>
+    <li>To maintain the security and operation of the service.</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+  <p>DietProof uses third-party services to provide its features. Those providers may process information as needed to deliver their services, under their own terms and privacy practices.</p>
+  <ul>
+    <li><strong>Supabase:</strong> account authentication and storage of scan-history information.</li>
+    <li><strong>Open Food Facts:</strong> product and ingredient searches. <a href="https://world.openfoodfacts.org/">Website and information</a>.</li>
+    <li><strong>USDA FoodData Central:</strong> food product searches. <a href="https://fdc.nal.usda.gov/">Website and information</a>.</li>
+    <li><strong>Google ML Kit:</strong> on-device text recognition for ingredient-label images. <a href="https://developers.google.com/ml-kit">Documentation</a>.</li>
+  </ul>
+
+  <p>Search terms and barcodes sent to product-data providers may be processed under those providers' own policies. This policy does not imply that those providers have no access to the queries sent to them.</p>
+
+  <h2>4. Storage and Security</h2>
+  <p>Account and scan-history information is stored using Supabase. The app uses account-scoped access controls for scan-history operations. We take reasonable steps to protect information, but no internet transmission or storage system can be guaranteed completely secure.</p>
+
+  <h2>5. Retention and Deletion</h2>
+  <p>You can delete individual scan-history records using the app's available history controls. You can initiate account deletion from the app's account settings, which invokes the account-deletion service.</p>
+  <p>You can also read the <a href="delete-account.html">external account-deletion instructions</a> or email <a href="mailto:vinay6543@gmail.com?subject=DietProof%20Account%20Deletion%20Request">vinay6543@gmail.com</a> to request deletion.</p>
+  <p>The app's deletion workflow is designed to remove personal account data and scan history while preserving shared product information. Some shared records may be retained without personal attribution. The precise scope of database cleanup, provider-side retention, backups, and technical logs may depend on the relevant service and configuration. Contact us if you need clarification about a deletion request.</p>
+
+  <h2>6. Children's Privacy</h2>
+  <p>DietProof is not designed to knowingly collect personal information from children. If you believe a child has provided personal information and it should be removed, contact us at the email below.</p>
+
+  <h2>7. Your Choices and Requests</h2>
+  <p>You can manage your account through the app and request deletion of your account and associated personal information. You can also contact us with questions about access, correction, or deletion, subject to applicable law and any information we need to verify your request.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy when the app, its services, or applicable requirements change. The latest version will be published on this page with an updated revision date.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>For privacy questions, support, or deletion requests, contact:</p>
+  <p><strong>Email:</strong> <a href="mailto:vinay6543@gmail.com">vinay6543@gmail.com</a></p>
+
+  <p><strong>Important:</strong> DietProof's ingredient classifications are informational and may be incomplete or uncertain. Always check the product's packaging and consult the manufacturer when needed, especially for allergies, medical dietary requirements, or religious dietary decisions.</p>
+
+  <footer>
+    <p><a href="index.html">Home</a> · <a href="delete-account.html">Account deletion</a></p>
+    <p>DietProof · Last updated October 21, 2026</p>
+  </footer>
+</body>
+</html>
